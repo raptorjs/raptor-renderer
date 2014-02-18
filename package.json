@@ -14,7 +14,8 @@
     "dependencies": {
         "raptor-render-context": "0.1.0-SNAPSHOT",
         "raptor-util": "0.1.0-SNAPSHOT",
-        "raptor-listeners": "0.1.0-SNAPSHOT"
+        "raptor-listeners": "0.1.0-SNAPSHOT",
+        "raptor-dom": "0.1.0-SNAPSHOT"
     },
     "devDependencies": {
         "mocha": "~1.15.1",
