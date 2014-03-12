@@ -1,6 +1,5 @@
 {
     "name": "raptor-renderer",
-    "version": "0.2.0-beta",
     "description": "Helper module to invoke renderers",
     "repository": {
         "type": "git",
@@ -30,5 +29,6 @@
     },
     "browser": {
         "./lib/RenderResult.js": "./lib/RenderResult-browser.js"
-    }
+    },
+    "version": "0.2.1-beta"
 }
