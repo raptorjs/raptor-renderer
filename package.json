@@ -27,5 +27,8 @@
     "main": "lib/raptor-renderer.js",
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
+    },
+    "browser": {
+        "./lib/RenderResult.js": "./lib/RenderResult-browser.js"
     }
 }
