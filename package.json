@@ -3,7 +3,7 @@
     "description": "Helper module to invoke renderers",
     "repository": {
         "type": "git",
-        "url": "https://github.com/raptorjs/raptor-renderer.git"
+        "url": "https://github.com/raptorjs3/raptor-renderer.git"
     },
     "scripts": {
         "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
