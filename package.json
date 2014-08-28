@@ -30,5 +30,5 @@
     "browser": {
         "./lib/RenderResult.js": "./lib/RenderResult-browser.js"
     },
-    "version": "0.2.5-beta"
+    "version": "0.2.6-beta"
 }
