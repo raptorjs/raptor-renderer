@@ -11,11 +11,11 @@
   "author": "Patrick Steele-Idem <pnidem@gmail.com>",
   "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
   "dependencies": {
-    "raptor-render-context": "^0.2.0-beta",
-    "raptor-util": "^0.2.0-beta",
-    "raptor-listeners": "^0.2.0-beta",
-    "raptor-dom": "^0.2.0-beta",
-    "raptor-pubsub": "^0.2.0-beta"
+    "raptor-render-context": "^1.0.0-beta",
+    "raptor-util": "^1.0.0-beta",
+    "raptor-listeners": "^1.0.0-beta",
+    "raptor-dom": "^1.0.0-beta",
+    "raptor-pubsub": "^1.0.0-beta"
   },
   "devDependencies": {
     "mocha": "~1.15.1",
