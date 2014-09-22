@@ -12,9 +12,9 @@
   "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
   "dependencies": {
     "async-writer": "^1.1.0",
-    "raptor-dom": "^1.0.0-beta",
-    "raptor-pubsub": "^1.0.0-beta",
-    "raptor-util": "^1.0.0-beta"
+    "raptor-dom": "^1.0.0",
+    "raptor-pubsub": "^1.0.0",
+    "raptor-util": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "~1.15.1",
