@@ -3,7 +3,7 @@ raptor-renderer
 
 This module provides support for rendering UI components and templates and provides helper methods for injecting the resulting HTML into the DOM _and_ binding behavior.
 
-In the browser, this module allows behavior to be attached by publishing a `raptor-renderer/renderedToDOM` message via the [raptor-pubsub](https://github.com/raptorjs/raptor-pubsub) module when the newly rendered DOM nodes have been inserted into the DOM. The [marko-widgets](https://github.com/raptorjs/marko-widgets) listens for this event to initialize all widgets that were rendered. Internally, the list of rendered widgets is stored in the [async-writer](https://github.com/raptorjs/async-writer) instance (specifically `out.global.widgets`) that is passed to all renderers during the rendering process.
+In the browser, this module allows behavior to be attached by publishing a `raptor-renderer/renderedToDOM` message via the [raptor-pubsub](https://github.com/raptorjs/raptor-pubsub) module when the newly rendered DOM nodes have been inserted into the DOM. The [marko-widgets](https://github.com/raptorjs/marko-widgets) module listens for this event to initialize all widgets that were rendered. Internally, the list of rendered widgets is stored in the [async-writer](https://github.com/raptorjs/async-writer) instance (specifically `out.global.widgets`) that is passed to all renderers during the rendering process.
 
 # Installation
 
