@@ -86,6 +86,28 @@ Synchronous version of the `render` method that immediately returns a `RenderRes
 
 Inserts the newly rendered DOM nodes as ending children of the target HTML element.
 
+#### getWidget()
+
+Returns the top-level widget (if any) associated with the rendered HTML. This method can only be called after the HTML has been inserted into the DOM (e.g. using `appendTo(document.body)`);
+
+Example:
+
+```javascript
+var buttonWidget = require('raptor-renderer').render(
+    buttonRenderer,
+    {
+        label: label
+    })
+    .appendTo(document.body)
+    .getWidget();
+
+buttonWidget.disable();
+```
+
+#### getWidgets()
+
+Returns an array of all of the rendered widgets;
+
 #### insertAfter(el)
 
 Inserts the newly rendered DOM nodes as siblings immediately _after_ the target HTML element.
