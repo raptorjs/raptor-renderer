@@ -29,5 +29,5 @@
     "browser": {
         "./lib/RenderResult.js": "./lib/RenderResult-browser.js"
     },
-    "version": "1.1.9"
+    "version": "1.1.10"
 }
