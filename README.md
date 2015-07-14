@@ -18,7 +18,7 @@ var raptorRenderer = require('raptor-renderer');
 
 var renderer = function(input, out) {
     out.write('Hello ' + input.name + '!');
-}
+};
 
 var targetEl = document.getElementById('myRenderTarget');
 
@@ -54,7 +54,7 @@ var raptorRenderer = require('raptor-renderer');
 
 var renderer = function(input, out) {
     out.write('Hello ' + input.name + '!');
-}
+};
 
 var targetEl = document.getElementById('myRenderTarget');
 
@@ -130,4 +130,4 @@ Removes the child nodes of the target element and replaces them with the newly r
 
 #### toString()
 
-Returs the output HTML string.
+Returns the output HTML string.
